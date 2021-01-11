@@ -38,9 +38,10 @@ padding-bottom: 12rem;
 /* project section*/
 
 #project_sec{
-  background-color: #007892;
+  background-color: #b1b1b100;
   margin-top: 0;
 }
+
 @media(min-width: 1040px)
 {
 .projects{
@@ -52,7 +53,7 @@ grid-template-columns: 1fr 1fr 1fr;
 @media(max-width: 1040px)
 {.projects{
 display:grid;
-grid-te/mplate-columns: 1fr 1fr ;
+grid-template-columns: 1fr 1fr ;
 
 }
 }
