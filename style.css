@@ -211,6 +211,7 @@ color: goldenrod;
   color: white;
 }
 
+
 .html {width: 90%; background-color: #4CAF50;}
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
@@ -219,14 +220,30 @@ color: goldenrod;
 
 .project__description{
   color:white;
+  position: relative;
+  text-align: center;
+  width:100%;
+  height:100%;
+  padding:10px;
+  
+ 
+  background-color:rgba(2,2,2,0.8);
+  
+  
   
 }
+
+
+
+
 .photo__blur{
   
   height:220px;background-repeat: no-repeat;background-size: 400px 220px;
-}
-.photo__blur:hover{
  
-    opacity: 20%;
-    color:white;
+}
+
+.photo__blur:hover ~ .project__description{
+  
+  display: block;
+ 
 }
