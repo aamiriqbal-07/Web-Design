@@ -211,3 +211,18 @@ color: goldenrod;
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
 .php {width: 60%; background-color: #808080;}   
+
+
+.project__description{
+  color:white;
+  
+}
+.photo__blur{
+  
+  height:220px;background-repeat: no-repeat;background-size: 400px 220px;
+}
+.photo__blur:hover{
+ 
+    opacity: 20%;
+    color:white;
+}
