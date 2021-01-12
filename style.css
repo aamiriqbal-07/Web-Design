@@ -139,7 +139,9 @@ color: goldenrod;
 /* Feedback*/
 #feedback {
   text-align: center;
-  background-color: #19b6da;
+  background-color: rgb(214, 208, 208,0.5);
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 .message {
   width : 50%;
